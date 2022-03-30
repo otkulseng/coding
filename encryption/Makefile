@@ -2,7 +2,7 @@
 EXECUTABLE  = encrypt
 
 COMPILER    = g++
-CFLAGS      = -Wall -g -fsanitize=address
+CFLAGS      = -Wall -g -std=c++2a -fsanitize=address
 LDFLAGS     = -fsanitize=address
 EXCLUDE     = '*test*'
 
