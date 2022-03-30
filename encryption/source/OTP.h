@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
-namespace OTP {
+namespace OTP
+{
     char encrypt(char code, char otp);
     char decrypt(char code, char otp);
 }

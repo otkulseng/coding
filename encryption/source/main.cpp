@@ -3,8 +3,6 @@
 #include "exception.h"
 #include "OTP.h"
 
-
-
 int main(int argc, char **argv)
 {
     try
