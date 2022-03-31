@@ -1,4 +1,6 @@
 #pragma once
+#ifndef EXCEPTION_H
+#define EXCEPTION_H
 #include <string>
 
 class EncryptException
@@ -15,3 +17,4 @@ public:
 
     std::string getError() const { return m_pre + m_error; }
 };
+#endif
